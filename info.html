@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Information Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="main">
+    <form class="input-frame-1" id="infoForm" method="POST" action="submit_info.php">
+      <h1>Student Information Form</h1>
+
+      <div class="form-group">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" />
+      </div>
+
+      <div class="form-group">
+        <label for="Department">Department:</label>
+        <input type="text" id="Department" />
+      </div>
+
+      <div class="form-group">
+        <label for="Reg">Reg. Number:</label>
+        <input type="number" id="Reg" />
+      </div>
+
+      <div class="form-group">
+        <label for="Age">Age:</label>
+        <input type="number" id="Age" />
+      </div>
+
+      <div class="form-group">
+        <label for="Year">Year:</label>
+        <input type="number" id="Year" />
+      </div>
+
+      <div class="form-group">
+        <label for="GPA">GPA:</label>
+        <input type="number" id="GPA" step="0.01" />
+      </div>
+
+      <button type="button" id="submit">Submit</button>
+      <button type="reset" id="clearBtn">Clear</button>
+    </form>
+  </div>
+
+  <script src="formjs.js" defer></script>
+
+</body>
+</html>
